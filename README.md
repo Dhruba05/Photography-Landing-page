@@ -1,0 +1,1 @@
+Simple Photgraphy landing page
