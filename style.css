@@ -1,0 +1,93 @@
+body {
+  background-image: url(bgImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.navBar {
+  padding: 10px;
+  height: 30px;
+  /* margin-left: 4px;
+  margin-right: 4px; */
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.navBar ul {
+  display: flex;
+}
+
+.navBar li {
+  margin: 10px;
+  list-style: none;
+}
+
+.navBar li button {
+  color: white;
+  background-color: brown;
+  border-radius: 4px;
+  height: 24px;
+}
+
+.navBar li button:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.logoImg {
+  height: 40px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.logoDiv {
+  display: flex;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.84);
+  margin-top: 2px;
+  height: 100vh;
+  width: 20%;
+  border-radius: 4px;
+}
+
+.sideBar li {
+  list-style: none;
+  height: 60px;
+  font-size: 30px;
+}
+.sideBar li:hover {
+  color: brown;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: all 0.4s ease-out;
+}
+
+.sideBar p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.ListLogo {
+  height: 20px;
+  margin-right: 10px;
+}
+.searchBar {
+  border-radius: 4px;
+  width: 20%;
+  height: 20px;
+}
